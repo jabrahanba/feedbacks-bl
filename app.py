@@ -72,7 +72,8 @@ if process_button:
 st.sidebar.markdown('''
 #### Instrucciones:
 
-1. Descargue el archivo en el backend de Baselang en la opción "Reponses for teacher".
+Descargue el archivo en el backend de Baselang:
+1. Ingrese en la opción "Reponses for teacher".
 2. Luego, vaya a la sección "Export feedback for teacher".
 3. Cargue el archivo como se pide a continuación. 👉
 ''')
