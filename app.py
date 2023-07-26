@@ -70,7 +70,7 @@ if process_button:
 
 ## SIDEBAR:
 st.sidebar.markdown('''
-#### Instrucciones:
+#### ➡️ Instrucciones
 
 Descargue el archivo en el backend de Baselang:
 1. Ingrese en la opción "Reponses for teacher".
