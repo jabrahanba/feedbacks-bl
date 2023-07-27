@@ -34,7 +34,7 @@ if uploaded_file:
             #st.error(str(e))
 
 date_option = st.radio("## 🅱️ - Seleccione la fecha:", ("Ayer", "Seleccionar fecha diferente" ))
-if date_option == "Seleccionar fecha":
+if date_option == "Seleccionar fecha diferente":
     selected_date = st.date_input("Seleccione una fecha en formato AAAA-MM-DD")
 else:
     # Obtener la fecha de ayer
