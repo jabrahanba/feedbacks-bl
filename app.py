@@ -26,11 +26,11 @@ if uploaded_file:
         st.write("Archivo subido con éxito ✅")
     except Exception as e:
         st.warning("""
-            ⚠️Archivo no válido.⚠️
-            Elimine el archivo cargado dando clic ❌ al lado del nombre del archivo que acaba de subir
-            (Esto lo encontrará encima de este mensaje). Luego,
-            cargue el archivo original extraído del back end
-            """)
+                    Archivo no válido.⚠️
+                    Elimine el archivo cargado dando clic ❌ al lado del nombre del archivo que acaba de subir
+                    (Esto lo encontrará encima de este mensaje). Luego,
+                    cargue el archivo original extraído del back end
+                    """)
             #st.error(str(e))
 
 date_option = st.radio("## 🅱️ - Seleccione la fecha:", ("Ayer", "Seleccionar fecha diferente" ))
@@ -57,7 +57,7 @@ if process_button:
                 mime='text/csv')
         except Exception as e:
             st.warning("""
-                        ⚠️Archivo no válido.⚠️
+                        Archivo no válido.⚠️
                         Elimine el archivo cargado dando clic en la equis al lado del nombre del archivo que acaba de subir
                         (Esto lo encontrará encima de este mensaje). Luego,
                         cargue el archivo original extraído del back end
