@@ -24,7 +24,7 @@ def etl(df,fecha):
     columns_to_drop = [
         ('Points', 'Any other comments?'),
         ('Points', 'How do you rate the class?'),
-        ('Comments', 'I would take class with them again'),
+        ('Comments', 'I would take a class with them again'),
         ('Comments', 'Their wifi, audio, and video was good'),
         ('Comments', 'They are good at teaching'),
         ('Comments', 'They made the class enjoyable'),
@@ -37,7 +37,7 @@ def etl(df,fecha):
     #Llenar los valores NaN
     replace_hyphen = ['Any other comments?','How do you rate the class?']
     pivot_df[replace_hyphen] = pivot_df[replace_hyphen].fillna('-')
-    replace_0 = ['I would take class with them again','Their wifi, audio, and video was good','They are good at teaching','They made the class enjoyable','They understood what I wanted']
+    replace_0 = ['I would take a class with them again','Their wifi, audio, and video was good','They are good at teaching','They made the class enjoyable','They understood what I wanted']
     pivot_df[replace_0] = pivot_df[replace_0].fillna(0)
     # L- Generar el archivo para cargar. 
     data_fecha = fecha
